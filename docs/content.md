@@ -1,8 +1,6 @@
 ## reveal workshop
 
 
-reveal verraten
-
 | englisch | deutsch  |
 | -------- | -------- |
 | reveal   | verraten |
