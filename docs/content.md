@@ -4,6 +4,9 @@
 | englisch | deutsch  |
 | -------- | -------- |
 | reveal   | verraten |
+|          | zeigen   |
+|          | enthüllen|
+|          | aufdecken|
 
 
 Dieter Blocher; didi@netjam.de
