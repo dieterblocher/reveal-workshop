@@ -13,14 +13,14 @@
 ## Dieter Blocher
 
 * Software Developer
-* Contact: didi@netjam.de
+* Kontakt: didi@netjam.de
 
 
 
 
 ## Agenda
 
-* Punkt 1
+* Was ist reveal.js
   * Punkt 1.1
   * Punkt 1.2
   * Punkt 1.3
