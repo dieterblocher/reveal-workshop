@@ -3,7 +3,6 @@
 
 > Oliver Sturm &bull; @olivers &bull; oliver@oliversturm.com
 
-<img src="devexpress.png" class="plain" style="background:transparent;opacity:0.7;" alt="DevExpress">&nbsp;&nbsp;<img src="mvp.png" class="plain" style="background:transparent;opacity:0.4;" alt="MVP">
 
 ---
 
