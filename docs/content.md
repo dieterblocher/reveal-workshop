@@ -7,6 +7,8 @@
 
 ---
 
+
+
 ## Dieter Blocher
 
 * Software Entwickler
@@ -17,6 +19,8 @@
 
 
 ---
+
+
 
 ## Agenda
 
@@ -30,6 +34,8 @@
 
 
 ---
+
+
 
 ## Quellcode
 
@@ -54,6 +60,8 @@ namespace HelloWorld
   
 
 ---
+
+
 
 ## Thank You
 
