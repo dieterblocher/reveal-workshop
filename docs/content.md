@@ -1,4 +1,14 @@
-### reveal.js workshop
+---
+title: "reveal.js workshop"
+author: Dieter Blocher
+date: 24. Oktober 2017
+output: revealjs::revealjs_presentation
+reveal_options:
+      slideNumber: true
+      previewLinks: true
+---
+
+# reveal.js workshop
 ...ich verrate Euch jetzt mal was...
 
 
@@ -8,6 +18,7 @@
 |          | zeigen   |
 |          | enthüllen|
 |          | aufdecken|
+
 
 
 ## Dieter Blocher
