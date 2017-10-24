@@ -4,6 +4,7 @@
 > Dieter Blocher; didi@netjam.de
 
 
+
 ---
 
 ## Dieter Blocher
@@ -13,6 +14,7 @@
 * blah, blah, blah
 
 * Contact: didi@netjam.de
+
 
 ---
 
@@ -25,6 +27,7 @@
 * Punkt 2
   * Punkt 2.1
 * Punkt 3
+
 
 ---
 
