@@ -2,6 +2,7 @@
 
 
 reveal verraten
+
 | englisch | deutsch  |
 | -------- | -------- |
 | reveal   | verraten |
