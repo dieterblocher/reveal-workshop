@@ -10,7 +10,6 @@
 |          | aufdecken|
 
 
-
 ## Dieter Blocher
 
 * Software Developer
