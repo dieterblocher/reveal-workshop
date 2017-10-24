@@ -1,5 +1,5 @@
-## reveal workshop
-
+## reveal.js workshop
+...ich verrate Euch jetzt mal was...
 
 | englisch | deutsch  |
 | -------- | -------- |
@@ -9,19 +9,9 @@
 |          | aufdecken|
 
 
-Dieter Blocher; didi@netjam.de
-
-
-Noch ein vertikaler Slide
-
-
-
 ## Dieter Blocher
 
-* Software Entwickler
-* blah, blah, blah
-* blah, blah, blah
-
+* Software Developer
 * Contact: didi@netjam.de
 
 
