@@ -7,7 +7,7 @@
 		<title>reveal.js workshop...</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -25,11 +25,54 @@
 		<div class="reveal">
 			<div class="slides">
 				<!-- data-separator-vertical="^\^\n" -->
-				<section data-markdown="content.md"
-					 data-separator="^\n\n\n" 
-         				 data-separator-vertical="^\n\n"  
-         				 data-separator-notes="^Note:"  
-         			         data-charset="utf-8"">>
+				<section>
+                Das ist eine Section
+                <aside class="notes">
+                    Hier sind einige Notizen zu den Folien...
+                </aside>
+				</section>
+                <section>
+                    <section tagcloud>
+                    Twitter Bootstrap
+                    jQuery
+                    less
+                    GruntJS
+                    JSHint
+                    JSLint
+                    markdown
+                    sass
+                    jade
+                    coffeescript
+                    codekit
+                    livereload
+                    web-build
+                    jQuery UI
+                    mustache
+                    emmet.io
+                    bower
+                    browserstack
+                    npm
+                    RequireJS
+                    socket.io
+                    jQuery Mobile
+                    node.js
+                    Jasmine
+                        <aside class="notes">
+                        Was geht ab????
+                        </aside>
+                    </section>
+                    <section>
+                    Another Section
+                    <aside class="notes">
+                    Das geht hier leider nicht...
+                    </aside>
+                    </section>
+                 </section>
+                <section>
+                Das ist eine neue Section
+                <aside class="notes">
+                Aber hier wieder...
+                </aside>
 				</section>
 			</div>
 		</div>
@@ -43,11 +86,34 @@
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 			        slideNumber: true,
+                    // Transition style
+                    transition: 'convex', // none/fade/slide/convex/concave/zoom
+                    allottedTime: 10 * 60 * 1000, // 10 minutes
+                    // - (optional) height of page/time progress bar
+                    progressBarHeight: 3,
+                    // - (optional) bar color
+                    barColor: 'rgb(0,200,0)',
+                    // - (optional) bar color when timer is paused
+                    pausedBarColor: 'rgba(200,0,0)',
+                    keyboard: {
+                    // pause/resume time when Enter is pressed
+                    80: () => {
+                          ElapsedTimeBar.isPaused ? ElapsedTimeBar.resume() : ElapsedTimeBar.pause();
+                        },
+                        // reset timer when 'r' is pressed
+                        82: () => {
+                          ElapsedTimeBar.reset();
+                        }
+                    },
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/jump/jump.js', async: true },
+                    { src: 'plugin/tagcloud/tagcloud.js', async: true },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/menu/menu.js' },
+                    { src: 'plugin/elapsed-time-bar/elapsed-time-bar.js'}
 				]
 			});
 		</script>
